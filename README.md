@@ -5,4 +5,4 @@
 
 레나 이미지
 
-![레나이미지]https://github.com/HYEOK12345/JHyeok/blob/main/lena.jpg
+![레나이미지](https://github.com/HYEOK12345/JHyeok/blob/main/lena.jpg)
