@@ -7,4 +7,4 @@
 
 ![레나이미지](https://github.com/HYEOK12345/JHyeok/blob/main/lena.jpg)
 
-### 레나 : 나에게 A+을 줘...
+### 레나 : 안녕하세요. 건양대 인공지능학과 23학번 레나 입니다.
