@@ -26,8 +26,19 @@
 - **출처**: [Kaggle - Melanoma Skin Cancer Dataset](https://www.kaggle.com/datasets/nodariy/melanoma-skin-cancer-dataset-of-10000-images)
 - **사용 수량**: 흑색종 1,500장 / 비흑색종 4,500장 (총 6,000장)
 - **분할**: Train 70%, Validation 15%, Test 15%
+- 
+### 3.2 데이터 예시 (흑색종 vs 비흑색종)
 
-### 3.2 전처리 코드 예시
+| 흑색종 이미지 예시 | 비흑색종 이미지 예시 |
+|-------------------|---------------------|
+| <img src="assets/sample_melanoma.jpg" width="200"/> | <img src="assets/sample_benign.jpg" width="200"/> |
+
+*Fig. 1. Kaggle Dataset에서 발췌한 실제 피부 병변 이미지 샘플*
+
+> 흑색종은 경계가 불규칙하고 색상이 어두우며, 병변 크기의 증가 속도가 빠른 특성이 있습니다. 이러한 시각적 패턴을 모델이 학습하도록 구성하였습니다.
+사용 방법 안내
+
+### 3.3 전처리 코드 예시
 transform = transforms.Compose([
     transforms.Resize((224, 224)),
     transforms.ToTensor(),
